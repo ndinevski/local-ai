@@ -23,6 +23,7 @@ Before running the script, ensure you have:
    chmod +x ./local-ai.sh
    ```
    2. Run the script: `./local-ai.sh`
+   3. If you are experiencing issues on the UI, try adding a `.env` file to `local-ai/offline-chatbot` with the content `VITE_PORT=<SOME_PORT>`
 
 
 This will:
