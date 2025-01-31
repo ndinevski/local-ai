@@ -19,12 +19,12 @@ Before running the script, ensure you have:
 ## Installation & Setup  
 1. Clone this repository:  
    ```sh
-   git clone some-link
-   cd some-link
+   git clone https://github.com/ndinevski/local-ai.git
+   cd local-ai
    ```
 2. Run the setup script:
    ```sh
-   ./setup.sh
+   ./local-ai.sh
    ```
 
 This will:
