@@ -35,4 +35,3 @@ npm install
 
 echo "Starting project..."
 npm run start
-
