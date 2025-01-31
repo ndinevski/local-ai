@@ -6,13 +6,12 @@ const app = express();
 
 dotenv.config();
 
-
 app.use(cors());
 app.use(express.json());
 
 app.use("/", router);
 
-const PORT = process.env.VITE_PORT || 3000;
+const PORT = process.env.VITE_PORT || 3030;
 
 app.listen(PORT, () =>
   console.log(`Server running → http://localhost:${PORT}`)
