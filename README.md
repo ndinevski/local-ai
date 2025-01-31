@@ -22,8 +22,7 @@ Before running the script, ensure you have:
    curl -H 'Accept: application/vnd.github.v3.raw' -O -L https://github.com/ndinevski/local-ai/blob/master/local-ai.sh
    chmod +x ./local-ai.sh
    ```
-   2. Add a `.env` file in `local-ai/offline-chatbot` with the content `VITE_PORT=3030`
-   3. Run the script: `./local-ai.sh`
+   2. Run the script: `./local-ai.sh`
 
 
 This will:
