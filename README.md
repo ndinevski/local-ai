@@ -16,16 +16,15 @@ Before running the script, ensure you have:
 - A macOS system with Homebrew installed (if not, the script installs it).  
 - Node.js and npm installed.  
 
-## Installation & Setup  
-1. Clone this repository:  
+## Installation & Setup   
+   1. Download the script
    ```sh
-   git clone https://github.com/ndinevski/local-ai.git
-   cd local-ai
+   curl -H 'Accept: application/vnd.github.v3.raw' -O -L https://github.com/ndinevski/local-ai/blob/master/local-ai.sh
+   chmod +x ./local-ai.sh
    ```
-2. Run the setup script:
-   ```sh
-   ./local-ai.sh
-   ```
+   2. Add a `.env` file in `local-ai/offline-chatbot` with the content `VITE_PORT=3030`
+   3. Run the script: `./local-ai.sh`
+
 
 This will:
 - Install Ollama via Homebrew
