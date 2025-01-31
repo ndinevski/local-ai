@@ -37,4 +37,4 @@ This will:
 Once the script completes, the chatbot UI will be available at:
 
 Frontend: `http://localhost:5173`
-Backend:  `http://localhost:3000`
+Backend:  `http://localhost:3030`
